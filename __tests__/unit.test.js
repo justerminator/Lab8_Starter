@@ -47,8 +47,8 @@ test('test password a_123', () => {
   expect(functions.isStrongPassword('a_123')).toBe(true);
 });
 
-test('test password @@@@@@@@@@@', () => {
-  expect(functions.isStrongPassword('@@@@@@@@@@@')).toBe(false);
+test('test password @1abnc', () => {
+  expect(functions.isStrongPassword('@1abnc')).toBe(false);
 });
 
 test('test password apple', () => {
